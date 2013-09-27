@@ -1,0 +1,20 @@
+﻿生成启动时间为 2013/9/4 星期三 9:13:57。
+     1>项目“C:\Myproj\angleproject\src\libEGL\libEGL.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         libEGL.vcxproj -> C:\Myproj\angleproject\samples\Debug\libEGL.dll
+       PostBuildEvent:
+         @echo on
+         mkdir "C:\Myproj\angleproject\src\libEGL\..\..\lib\Debug\"
+         copy "C:\Myproj\angleproject\samples\Debug\libEGL.dll" "C:\Myproj\angleproject\src\libEGL\..\..\lib\Debug\"
+         copy "C:\Myproj\angleproject\samples\Debug\libEGL.lib" "C:\Myproj\angleproject\src\libEGL\..\..\lib\Debug\"
+         @echo off
+         
+         :VCEnd
+         子目录或文件 C:\Myproj\angleproject\src\libEGL\..\..\lib\Debug\ 已经存在。
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>已完成生成项目“C:\Myproj\angleproject\src\libEGL\libEGL.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.18
