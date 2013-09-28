@@ -187,11 +187,6 @@
 #undef FT_NEED_EXTERN_C
 #undef FT_ERR_BASE
 
-  /* FT_ERR_PREFIX is needed internally */
-#ifndef FT2_BUILD_LIBRARY
-#undef FT_ERR_PREFIX
-#endif
-
 #endif /* __FTERRORS_H__ */
 
 

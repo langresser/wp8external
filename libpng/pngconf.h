@@ -410,9 +410,7 @@
 #      define PNG_PRIVATE __declspec(deprecated)
 #    endif
 #    ifndef PNG_RESTRICT
-#      if (_MSC_VER >= 1400)
-#        define PNG_RESTRICT __restrict
-#      endif
+#      define PNG_RESTRICT
 #    endif
 
 #  elif defined(__WATCOMC__)
